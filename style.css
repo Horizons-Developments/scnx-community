@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    background-color: black;
+
+}
+
+/* General elements */
+
+h1 {
+
+}
+
+h2 {
+    font-family: 'Arial', Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+p {
+
+}
+
+a {
+
+}
+
+.button {
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none; /* wichtig für <a> */
+  display: inline-block;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  background-color: #ff8c00;
+}
+
+/* Navigation menu */
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  padding: 1rem 2rem;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between; /* Titel links, Navigation rechts */
+  align-items: center;
+}
+
+.site-title {
+  color: white;
+  font-size: 1.5rem;
+  font-family: Arial, sans-serif;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.navigation li a:hover {
+  color: #ffa500;
+}
+
+/* Welcome screen */
+
+.container-welcomeScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.text-welcomeScreen h1 {
+  font-family: 'Arial', Helvetica, sans-serif;
+  text-align: center;
+  color: #ffa500;
+  font-size: 10vw;
+}
+
+.text-welcomeScreen h2 {
+  font-family: 'Arial', Helvetica, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 2vw;
+}
