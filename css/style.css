@@ -185,7 +185,7 @@ body {
 
 
 .main {
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 /* ---------- Welcome Screen ---------- */
@@ -198,7 +198,7 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding: 0px 50px;
+    padding: 0px 1rem;
     flex-direction: column;
 }
 
