@@ -24,6 +24,13 @@ body {
     color: #FFFFFF;
 }
 
+.placeholder-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
 /* -------------------- HEADER -------------------- */
 
 .header {
@@ -83,11 +90,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
     z-index: 1000;
-    border: 2px solid #FFFFFF;
+    border: 0px solid #FFFFFF;
     border-radius: 50%;
     padding: 5px;
     
@@ -96,7 +103,7 @@ body {
 .navigation-toggle-label span {
     position: relative;
     display: block;
-    width: 15px;
+    width: 20px;
     height: 2px;
     background: #fff;
     border-radius: 2px;
@@ -107,7 +114,7 @@ body {
     content: '';
     position: absolute;
     left: 0;
-    width: 15px;
+    width: 20px;
     height: 2px;
     background: #fff;
     border-radius: 2px;
@@ -203,9 +210,9 @@ body {
 
 .main {
     padding-top: 80px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 80px;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0px;
 }
 
 /* ---------- Welcome Screen ---------- */
@@ -215,20 +222,88 @@ body {
     position: relative;
     min-height: calc(100vh - 80px);
     width: 100%;
-    text-align: center;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.welcome-screen-container h1 {
-    color: #FFA500;
-    font-family: "Orbitron", Arial, sans-serif;
-    font-size: 1.5rem;
+.welcome-screen-text {
+    padding-top: 0px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0px;
+    text-align: center;
+    flex-shrink: 0;
 }
 
-.welcome-screen-container h3 {
+.welcome-screen-text h1 {
+    color: #FFA500;
+    font-family: "Orbitron", Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.welcome-screen-text h3 {
     color: #FFFFFF;
     font-family: "ADLaMDisplay", Arial, sans-serif;
     font-size: 1.25rem;
+}
+
+/* ---------- Divider ---------- */
+
+.header-divider-top {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    color: #FFA500;
+}
+
+.header-divider-top svg {
+    display: block;
+    width: 100%;
+    height: 60px;
+    transform: rotateX(180deg);
+}
+
+.header-divider-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    color: #FFA500;
+    transform: rotateX(0deg);
+}
+
+.header-divider-bottom svg {
+    display: block;
+    width: 100%;
+    height: 60px;
+}
+
+.divider-wave {
+    fill: #FFA500;
+    transform: rotateY(0deg);
+    transform-origin: center;
+}
+
+/* ---------- Content ---------- */
+
+.content-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.content-heading {
+    font-family: "Orbitron", Arial, sans-serif;
+    font-size: 1rem;
+    color: #FFA500;
 }
