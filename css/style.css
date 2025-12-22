@@ -168,6 +168,42 @@ body {
     padding: 0.5rem 1.5rem 1rem;
 }
 
+.navigation-container-menu li {
+    padding: 0.75rem 0;
+}
+
+.navigation-container-menu li a {
+    position: relative;
+    font-family: "Orbitron", Arial, sans-serif;
+    font-size: 1rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navigation-container-menu li a.navigation-menu-active {
+    color: #FFA500;
+}
+
+.navigation-container-menu li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background: #FFA500;
+    transition: width 0.25s ease;
+}
+
+.navigation-container-menu li a:hover {
+    color: #FFA500;
+    text-shadow: 0 0 8px #FFA500;
+}
+
+.navigation-container-menu li a:hover::after {
+    width: 100%;
+}
+
 .navigation-container-submenu {
     display: none;
     position: absolute;
