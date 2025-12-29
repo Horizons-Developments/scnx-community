@@ -11,7 +11,7 @@ I will try to push new changes every day, but this can variates due my motivatio
 
 You can either find the current status on our public website (recommend) or on our GitHub Pages website (may not work due absolute paths).
 
-- Public: https://fellwedel.de
+- Public: http://fellwedel.de
 - GitHub Pages: https://horizons-developments.github.io/scnx-community
 
 We know, the name of the public domain is a little bit weird, but we owned this domain already and it was unused, so we have decided to start on this great domain :P
