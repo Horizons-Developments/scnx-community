@@ -1,4 +1,4 @@
-class header extends HTMLElement {
+class WebsiteHeader extends HTMLElement {
     connectedCallback() {
         const lang = this.getAttribute("lang") || "en";
 
@@ -7,8 +7,8 @@ class header extends HTMLElement {
                 <header class="header">
 
                     <div class="branding-container">
-                        <a href="">
-                            <img class="branding-logo" src="./assets/images/Logo.png" alt="SCNX Community Logo">
+                        <a href="/">
+                            <img class="branding-logo" src="/assets/images/Logo.png" alt="SCNX Community Logo">
                             <span class="branding-sitetitle">SCNX Community</span>
                         </a>
                     </div>
@@ -20,34 +20,34 @@ class header extends HTMLElement {
 
                     <nav class="navigation-container">
                         <ul class="navigation-container-menu">
-                            <li class="navigation-element"><a class="navigation-menu-active" href="./">Home</a></li>
-                            <li class="navigation-element navigation-submenu"><a href="products/">Products</a>
+                            <li class="navigation-element"><a class="navigation-menu-active" href="/">Home</a></li>
+                            <li class="navigation-element navigation-submenu"><a href="/products/">Products</a>
                                 <ul class="navigation-container-submenu">
-                                    <li class="navigation-element"><a href="custom-commands/">Custom Commands</a></li>
-                                    <li class="navigation-element"><a href="message-templates/">Message Templates</a></li>
-                                    <li class="navigation-element"><a href="custom-solutions/">Custom Solutions</a></li>
+                                    <li class="navigation-element"><a href="/products/custom-commands/">Custom Commands</a></li>
+                                    <li class="navigation-element"><a href="/products/message-templates/">Message Templates</a></li>
+                                    <li class="navigation-element"><a href="/products/custom-solutions/">Custom Solutions</a></li>
                                 </ul>
                             </li>  
-                            <li class="navigation-element navigation-submenu"><a href="about-us/">About Us</a>
+                            <li class="navigation-element navigation-submenu"><a href="/about-us/">About Us</a>
                                 <ul class="navigation-container-submenu">
-                                    <li class="navigation-element"><a href="about-scnx-community/">About SCNX Community</a></li>
-                                    <li class="navigation-element"><a href="partner/">Partner</a></li>
-                                    <li class="navigation-element"><a href="other-projects/">Other Projects</a></li>
-                                    <li class="navigation-element"><a href="our-team/">Our Team</a></li>
-                                    <li class="navigation-element"><a href="apply/">Apply</a></li>
-                                    <li class="navigation-element"><a href="news/">News</a></li>
-                                    <li class="navigation-element"><a href="feedback/">Feedback</a></li>
+                                    <li class="navigation-element"><a href="/about-us/about-scnx-community/">About SCNX Community</a></li>
+                                    <li class="navigation-element"><a href="/about-us/partner/">Partner</a></li>
+                                    <li class="navigation-element"><a href="/about-us/other-projects/">Other Projects</a></li>
+                                    <li class="navigation-element"><a href="/about-us/our-team/">Our Team</a></li>
+                                    <li class="navigation-element"><a href="/about-us/apply/">Apply</a></li>
+                                    <li class="navigation-element"><a href="/about-us/news/">News</a></li>
+                                    <li class="navigation-element"><a href="/about-us/feedback/">Feedback</a></li>
                                 </ul>
                             </li>
-                            <li class="navigation-element"><a href="help/">Help</a>
+                            <li class="navigation-element"><a href="/help/">Help</a>
                                 <ul class="navigation-container-submenu">
-                                    <li class="navigation-element"><a href="help/faq">FAQ</a></li>
+                                    <li class="navigation-element"><a href="/help/faq">FAQ</a></li>
                                     <li class="navigation-element"><a href="https://dcserver.link/scnx-community">Discord</a></li>
                                 </ul>
                             </li>
-                            <li class="navigation-element"><a href="contact/">Conatct</a></li>
+                            <li class="navigation-element"><a href="/contact/">Contact</a></li>
                             <li class="navigation-element"><a href="https://dashboard.scnx-community.com">Dashboard</a></li>
-                            <li class="navigation-element"><a href="de/">Deutsch</a></li>
+                            <li class="navigation-element"><a href="/de/">Deutsch</a></li>
                         </ul>
                     </nav>
                     
@@ -60,7 +60,7 @@ class header extends HTMLElement {
                 <header class="header">
 
                     <div class="branding-container">
-                        <a href="">
+                        <a href="/de/">
                             <img class="branding-logo" src="/assets/images/Logo.png" alt="SCNX Community Logo">
                             <span class="branding-sitetitle">SCNX Community</span>
                         </a>
@@ -112,4 +112,4 @@ class header extends HTMLElement {
     }
 }
 
-customElements.define("website-header", header);
+customElements.define("website-header", WebsiteHeader);

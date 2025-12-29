@@ -274,7 +274,7 @@ body {
     font-size: 2rem;
 }
 
-.welcome-screen-text h3 {
+.welcome-screen-text h2 {
     color: #FFFFFF;
     font-family: "ADLaMDisplay", Arial, sans-serif;
     font-size: 1.25rem;
@@ -367,8 +367,34 @@ body {
 }
 
 .content-heading {
+    display: flex;
+    display: relative;
     padding: 0 1rem;
     font-family: "Orbitron", Arial, sans-serif;
     font-size: 1rem;
     color: #FFA500;
+}
+
+.content-text {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 0 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-text h4 {
+    font-family: "ADLaMDisplay", Arial, sans-serif;
+    font-size: 0.75rem;
+    color: #FFA500;
+    margin: 1rem 0;
+}
+
+.content-text h5 {
+    font-family: "AdLAMDisplay", Arial, sans-serif;
+    font-size: 0.5rem;
+    color: #FFA500;
+    margin: 0.75rem 0;
 }

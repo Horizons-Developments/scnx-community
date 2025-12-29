@@ -12,54 +12,7 @@
 
 <body>
 
-    <header class="header">
-
-        <div class="branding-container">
-            <a href="">
-                <img class="branding-logo" src="/assets/images/Logo.png" alt="SCNX Community Logo">
-                <span class="branding-sitetitle">SCNX Community</span>
-            </a>
-        </div>
-
-        <input type="checkbox" id="navigation-toggle" class="navigation-toggle">
-        <label for="navigation-toggle" class="navigation-toggle-label" aria-label="Menü öffnen/schließen">
-            <span></span>
-        </label>
-
-        <nav class="navigation-container">
-            <ul class="navigation-container-menu">
-                <li class="navigation-element"><a class="navigation-menu-active" href="/de/">Startseite</a></li>
-                <li class="navigation-element navigation-submenu"><a href="/de/products/">Produkte</a>
-                    <ul class="navigation-container-submenu">
-                        <li class="navigation-element"><a href="/de/products/custom-commands/">Eigene Befehle</a></li>
-                        <li class="navigation-element"><a href="/de/products/message-templates/">Nachrichten-Vorlagen</a></li>
-                        <li class="navigation-element"><a href="/de/products/custom-solutions/">Individuelle Lösungen</a></li>
-                    </ul>
-                </li>  
-                <li class="navigation-element navigation-submenu"><a href="/de/about-us/">Über uns</a>
-                    <ul class="navigation-container-submenu">
-                        <li class="navigation-element"><a href="/de/about-us/about-scnx-community/">Über SCNX Community</a></li>
-                        <li class="navigation-element"><a href="/de/about-us/partner/">Partner</a></li>
-                        <li class="navigation-element"><a href="/de/about-us/other-projects/">Andere Projekte</a></li>
-                        <li class="navigation-element"><a href="/de/about-us/our-team/">Unser Team</a></li>
-                        <li class="navigation-element"><a href="/de/about-us/apply/">Bewerben</a></li>
-                        <li class="navigation-element"><a href="/de/about-us/news/">Neuigkeiten</a></li>
-                        <li class="navigation-element"><a href="/de/about-us/feedback/">Feedback</a></li>
-                    </ul>
-                </li>
-                <li class="navigation-element"><a href="/de/help/">Hilfe</a>
-                    <ul class="navigation-container-submenu">
-                        <li class="navigation-element"><a href="/de/help/faq">FAQ</a></li>
-                        <li class="navigation-element"><a href="https://dcserver.link/scnx-community">Discord</a></li>
-                    </ul>
-                </li>
-                <li class="navigation-element"><a href="/de/contact/">Kontakt</a></li>
-                <li class="navigation-element"><a href="https://dashboard.scnx-community.com">Dashboard</a></li>
-                <li class="navigation-element"><a href="/">English</a></li>
-            </ul>
-        </nav>
-        
-    </header>
+    <website-header lang="de"></website-header>
 
     <main class="main">
 
@@ -69,7 +22,7 @@
                 <br>
                 <br>
                 <br>
-                <h3>Große Transparenz. Gut informiert.</h3>
+                <h2>Große Transparenz. Gut informiert.</h2>
             </div>
             <div class="header-divider-top">
                 <svg viewBox="0 0 283.5 27.8" preserveAspectRatio="none">
@@ -104,34 +57,41 @@
 
         <div class="content-container">
             <div class="content-heading">
-                <h1>IMPRESSUM</h1>
+                <h3>IMPRESSUM</h3>
             </div>
+            <div class="content-text">
+                <h4>Name und Anschrift</h4>
 
-            Name und Anschrift
+                    <p>Sören Werther</p>
 
-            Sören Werther
+                    <p>
+                    Händelstraße 23,
+                    99610 Sömmerda,
+                    Deutschland
+                    </p>
 
-            Händelstraße 23,
-            99610 Sömmerda,
-            Deutschland
+                <h4>Kontakt</h4>
 
-            Kontakt
+                        <h5>Telefon:</h5>
 
-            Telefon:
-            015115914676
+                            <p>015115914676</p>
 
-            E-Mail:
-            scnx-community@outlook.com
+                        <h5>E-Mail:</h5>
+                        
+                            <p>scnx-community@outlook.com</p>
 
-            Post:
-            Händelstraße 23,
-            99610 Sömmerda,
-            Deutschland
+                        <h5>Post:</h5>
 
-            Quelle
+                            <p>
+                            Händelstraße 23,
+                            99610 Sömmerda,
+                            Deutschland
+                            </p>
+            
+                <h4>Quelle</h4>
 
-            eRecht24
-
+                <a class="button" href="https://e-recht24.de" target="_blank" rel="noreferrer">eRecht24</a>
+            </div>
         </div>
 
         <div class="placeholder-container">
@@ -145,5 +105,7 @@
     </main>
 
 </body>
+
+<script src="/components/header.js" type="module"></script>
 
 </html>
