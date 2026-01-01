@@ -5,7 +5,6 @@ class WebsiteHeader extends HTMLElement {
         if (lang === "en") {
             this.innerHTML = `
                 <header class="header">
-
                     <div class="branding-container">
                         <a href="/">
                             <img class="branding-logo" src="/assets/images/Logo.png" alt="SCNX Community Logo">
@@ -50,7 +49,6 @@ class WebsiteHeader extends HTMLElement {
                             <li class="navigation-element"><a href="/de/">Deutsch</a></li>
                         </ul>
                     </nav>
-                    
                 </header>
             `;
         }
@@ -58,7 +56,6 @@ class WebsiteHeader extends HTMLElement {
         if (lang === "de") {
             this.innerHTML = `
                 <header class="header">
-
                     <div class="branding-container">
                         <a href="/de/">
                             <img class="branding-logo" src="/assets/images/Logo.png" alt="SCNX Community Logo">
@@ -103,7 +100,6 @@ class WebsiteHeader extends HTMLElement {
                             <li class="navigation-element"><a href="/">English</a></li>
                         </ul>
                     </nav>
-                    
                 </header>
             `;
         }

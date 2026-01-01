@@ -1,0 +1,150 @@
+{
+    "en": {
+        "home": {
+            "title": "SCNX COMMUNITY",
+            "description": ""
+        },
+        "products": {
+            "title": "PRODUCTS",
+            "description": ""
+        },
+        "custom-commands": {
+            "title": "CUSTOM COMMANDS",
+            "description": ""
+        },
+        "message-templates": {
+            "title": "MESSAGE TEMPLATES",
+            "description": ""
+        },
+        "custom-solutions": {
+            "title": "CUSTOM SOLUTIONS",
+            "description": ""
+        },
+        "about-us": {
+            "title": "ABOUT US",
+            "description": ""
+        },
+        "about-scnx-community": {
+            "title": "ABOUT SCNX COMMUNITY",
+            "description": ""
+        },
+        "partner": {
+            "title": "PARTNER",
+            "description": ""
+        },
+        "other-projects": {
+            "title": "OTHER PROJECTS",
+            "description": ""
+        },
+        "our-team": {
+            "title": "OUR TEAM",
+            "description": ""
+        },
+        "apply": {
+            "title": "APPLY",
+            "description": ""
+        },
+        "news": {
+            "title": "NEWS",
+            "description": ""
+        },
+        "feedback": {
+            "title": "FEEDBACK",
+            "description": ""
+        },
+        "help": {
+            "title": "HELP",
+            "description": ""
+        },
+        "faq": {
+            "title": "FAQ",
+            "description": ""
+        },
+        "contact": {
+            "title": "CONTACT",
+            "description": ""
+        },
+        "imprint": {
+            "title": "IMPRINT",
+            "description": ""
+        },
+        "privacy-policy": {
+            "title": "PRIVAY POLICY",
+            "description": ""
+        }
+    },
+    "de": {
+        "home": {
+            "title": "SCNX COMMUNITY",
+            "description": "Alles von SCNX. Für dich und deine Community."
+        },
+        "products": {
+            "title": "PRODUKTE",
+            "description": ""
+        },
+        "custom-commands": {
+            "title": "EIGENE BEFEHLE",
+            "description": ""
+        },
+        "message-templates": {
+            "title": "NACHRICHTEN-VORLAGEN",
+            "description": ""
+        },
+        "custom-solutions": {
+            "title": "INDIVIDUELLE LÖSUNGEN",
+            "description": ""
+        },
+                "about-us": {
+            "title": "ÜBER UNS",
+            "description": ""
+        },
+        "about-scnx-community": {
+            "title": "ÜBER SCNX COMMUNITY",
+            "description": ""
+        },
+        "partner": {
+            "title": "PARTNER",
+            "description": ""
+        },
+        "other-projects": {
+            "title": "ANDERE PROJEKTE",
+            "description": ""
+        },
+        "our-team": {
+            "title": "UNSER TEAM",
+            "description": ""
+        },
+        "apply": {
+            "title": "BEWERBEN",
+            "description": ""
+        },
+        "news": {
+            "title": "NEUIGKEITEN",
+            "description": ""
+        },
+        "feedback": {
+            "title": "FEEDBACK",
+            "description": ""
+        },
+        "help": {
+            "title": "HILFE",
+            "description": ""
+        },
+        "faq": {
+            "title": "FAQ",
+            "description": ""
+        },
+        "contact": {
+            "title": "KONTAKT",
+            "description": ""
+        },
+        "imprint": {
+            "title": "IMPRESSUM",
+            "description": "Große Transparenz. Gut informiert."
+        },
+        "privacy-policy": {
+            "title": "DATENSCHUTZ",
+            "description": ""
+        }
+    }
+}
