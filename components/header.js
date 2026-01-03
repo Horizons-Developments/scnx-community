@@ -1,6 +1,13 @@
 class WebsiteHeader extends HTMLElement {
     connectedCallback() {
+        
         const lang = this.getAttribute("lang") || "en";
+        const active = this.getAttribute("active");
+        const link = this.querySelector(`[href="${active}"]`);
+
+        if (link) {
+            link.classList.add("navigation-menu-active");
+        }
 
         if (lang === "en") {
             this.innerHTML = `
@@ -104,7 +111,6 @@ class WebsiteHeader extends HTMLElement {
             `;
         }
 
-        
     }
 }
 
