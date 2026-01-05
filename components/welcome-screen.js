@@ -9,12 +9,16 @@ class WelcomeScreen extends HTMLElement {
         const content = data[lang][page];
 
         this.innerHTML = `
-            <section class="welcome-screen-container">
-                <div class="welcome-screen-text">
-                    <h1 class="heading1">${content.title}</h1>
-                    <h6 class="heading6">${content.description}</h5>
+            <div class="welcome-screen-container">
+                <div class="content-section">
+                    <div class="content-block">
+                        <h1 class="heading1">${content.title}</h1>
+                    </div>
+                    <div class="content-block">
+                        <h6 class="heading6">${content.description}</h6>
+                    </div>
                 </div>
-            </section>
+            </div>
         `;
     }
 }

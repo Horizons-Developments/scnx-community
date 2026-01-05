@@ -2,12 +2,6 @@ class WebsiteHeader extends HTMLElement {
     connectedCallback() {
         
         const lang = this.getAttribute("lang") || "en";
-        const active = this.getAttribute("active");
-        const link = this.querySelector(`[href="${active}"]`);
-
-        if (link) {
-            link.classList.add("navigation-menu-active");
-        }
 
         if (lang === "en") {
             this.innerHTML = `
@@ -26,7 +20,7 @@ class WebsiteHeader extends HTMLElement {
 
                     <nav class="navigation-container">
                         <ul class="navigation-container-menu">
-                            <li class="navigation-element"><a class="navigation-menu-active" href="/">Home</a></li>
+                            <li class="navigation-element"><a href="/">Home</a></li>
                             <li class="navigation-element navigation-submenu"><a href="/products/">Products</a>
                                 <ul class="navigation-container-submenu">
                                     <li class="navigation-element"><a href="/products/custom-commands/">Custom Commands</a></li>
@@ -77,7 +71,7 @@ class WebsiteHeader extends HTMLElement {
 
                     <nav class="navigation-container">
                         <ul class="navigation-container-menu">
-                            <li class="navigation-element"><a class="navigation-menu-active" href="/de/">Startseite</a></li>
+                            <li class="navigation-element"><a href="/de/">Startseite</a></li>
                             <li class="navigation-element navigation-submenu"><a href="/de/products/">Produkte</a>
                                 <ul class="navigation-container-submenu">
                                     <li class="navigation-element"><a href="/de/products/custom-commands/">Eigene Befehle</a></li>
@@ -110,6 +104,22 @@ class WebsiteHeader extends HTMLElement {
                 </header>
             `;
         }
+
+        const normalize = url => url.replace(/\/$/, "") || "/";
+        const active = normalize(this.getAttribute("active") || "");
+        const links = this.querySelectorAll("a");
+
+        links.forEach(link => {
+            const href = normalize(link.getAttribute("href"));
+
+            if (href === active) {
+                link.classList.add("navigation-menu-active");
+            }
+
+            if (active.startsWith(href) && href.split("/").length > 2) {
+                link.classList.add("navigation-menu-active");
+            }
+        });
 
     }
 }

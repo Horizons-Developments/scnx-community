@@ -1,0 +1,150 @@
+.main {
+    padding-top: 80px;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0px;
+}
+
+/* ---------- Welcome Screen ---------- */
+
+.welcome-screen-container {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcome-screen-text {
+    padding: 0 2rem;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* ---------- Divider ---------- */
+
+.header-divider {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin-bottom: 7.5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0;
+}
+
+.header-divider-top {
+    display: flex;
+    position: relative;
+    width: 100%;
+    line-height: 0;
+    color: #FFA500;
+}
+
+.header-divider-top svg {
+    display: block;
+    width: 100%;
+    height: 60px;
+    transform: rotateX(180deg);
+}
+
+.header-divider-bottom {
+    display: flex;
+    position: relative;
+    width: 100%;
+    line-height: 0;
+    color: #FFA500;
+    transform: rotateX(0deg);
+}
+
+.header-divider-bottom svg {
+    display: block;
+    width: 100%;
+    height: 60px;
+}
+
+.header-divider-wave {
+    fill: #FFA500;
+    transform: rotateY(0deg);
+    transform-origin: center;
+}
+
+.footer-divider {
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: 7.5rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-divider-line {
+    flex-grow: 1;
+    height: 10px;
+    background-color: #FFA500;
+}
+
+.footer-divider-icon {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border: 3px solid;
+    border-radius: 50%;
+    border-color: #FFA500;
+    background-color: #000000;
+    color: #FFA500;
+    font-family: "ADLaMDisplay", Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+/* ---------- Content ---------- */
+
+.content-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.content-section {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 0 2rem;
+    gap: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-block {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-block {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
